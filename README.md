@@ -5,16 +5,16 @@ A responsive web based day planner that helps you to schedule tasks from 9AM to 
 
 ## FEATURES
  time blocks from "9AM to 5PM"
- **Color-Coded** rows
-    past - gray color
-    present - red color
+ **Color-Coded** rows                      
+    past - gray color     /
+    present - red color   /
     future - green color
  *save* and *clear* buttons for each hour
  Data saved in  *local storage*
  fully responsive and simple design
 # Technologies used
- -HTML
- -CSS
+ -HTML / 
+ -CSS  / 
  -JacaScript (ES6)
 # project structure 
 index.html
