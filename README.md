@@ -17,8 +17,8 @@ A responsive web based day planner that helps you to schedule tasks from 9AM to 
  -CSS  / 
  -JacaScript (ES6)
 # project structure 
-index.html
-style.css
+index.html   /
+style.css     /
 script.js
 
 
