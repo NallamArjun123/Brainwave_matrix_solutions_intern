@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.time-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hour {
+  width: 80px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #e6e6e6;
+  border-radius: 5px 0 0 5px;
+}
+
+.task {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.task.past {
+  background-color: #d3d3d3;
+}
+
+.task.present {
+  background-color: #ffdddd;
+}
+
+.task.future {
+  background-color: #ddffdd;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.saveBtn {
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.clearBtn {
+  background-color: #dc3545;
+  color: white;
+  margin-left: 5px;
+  border-radius: 5px;
+}
